@@ -1,0 +1,61 @@
+.tesrimonials {
+    padding: 50px 0px;
+    position: relative;
+}
+
+.image-slaider__image {
+    display: flex;
+    width: 100%;
+    img{
+        width: 50%;
+        height: 490px;
+        object-fit: cover;
+        object-position: center;
+    }
+}
+.slaider-bg{
+    width: 50%;
+    height: 490px;
+    background-color: #5C3249;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slaider-text{
+    p{
+        width: 470px;
+        text-align:left;
+        color: #fff;
+        text-transform: capitalize;
+        font-style: italic;
+        font-weight: 400;
+        font-size: $_36px;
+        font-family: Cardo;
+        margin-bottom: 30px;
+    }
+    span{
+        color: #FFF;
+        font-size: $_13px;
+        font-weight: 400;
+        text-transform: uppercase;
+        font-family: Raleway;
+    }
+}
+
+.swiper-button-prev::after {
+    color: rgba($color: #fff, $alpha: 0.5)
+}
+.swiper-button-next::after {
+    color: rgba($color: #fff, $alpha: 0.5)
+    
+}
+.swiper-pagination{
+    bottom: 0;
+    span{
+        width: 20px;
+        height: 20px;
+        line-height: 20px;
+        background-color: #5C3249;
+        font-size: 14px 
+    }
+}

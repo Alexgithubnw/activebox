@@ -1,0 +1,205 @@
+@import "../scss/variables";
+@import "../scss/cdn";
+@import "../scss/header.scss";
+@import "../scss/banner.scss";
+@import "../scss/features.scss";
+@import "../scss/work.scss";
+@import "../scss/our_team.scss";
+@import "../scss/testimonials.scss";
+@import "../scss/download.scss";
+@import "../scss/footer.scss";
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+}
+.conteiner{
+    width: 1170px;
+    padding: 0 15px;
+    margin: auto;
+}
+@media (max-width: 1200px){
+    html{
+        font-size: 15px;
+    }
+    .conteiner{
+        width: 100%;
+    }
+    .features-card{
+        width: 310px;
+    }
+    .our_team-card{
+        width: 220px;
+    }
+    .footer-card{
+        width: 310px;
+    }
+}
+@media (max-width: 1024px){
+    html{
+        font-size: 14px;
+    }
+    .conteiner{
+        width: 100%;
+    }
+    .features-card{
+        width: 290px;
+    }
+    .work-grid{
+        grid-template-rows: repeat(2, 230px);
+    }
+    .our_team-card{
+        width: 200px;
+    }
+    .footer-card{
+        width: 2900px;
+    }
+}
+@media (max-width: 960px){
+    html{
+        font-size: 13px;
+    }
+    .conteiner{
+        width: 100%;
+    }
+    .navigation-list__item{
+        width: 126px;
+    }
+    .features-wrapper{
+        justify-content: space-evenly;
+    }
+    .features-card{
+        width: 355px;
+    }
+    .slaider-text p{
+        width: 420px;
+    }
+}
+@media (max-width: 880px){
+    html{
+        font-size: 12px;
+    }
+    .conteiner{
+        width: 100%;
+    }
+    .navigation-list__item{
+        width: 110px;
+    }
+    .features-card{
+        width: 340px;
+    }
+    .work-grid{
+        grid-template-columns: repeat(2, 50%);
+    grid-template-rows: repeat(4, 340px);
+    }
+    .our_team-wrapper{
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+    .our_team-card{
+        width: 270px;
+        margin-bottom: 30px;
+    }
+    .slaider-text p{
+        width: 300px;
+    }
+}
+@media (max-width: 465px){
+    html{
+        font-size: 12px;
+    }
+    .conteiner{
+        width: 100%;
+    }
+    .button{
+        width: 80%;
+    }
+    .features-card{
+        width: 320px;
+    }
+    .wrapper-header{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .logo{
+        margin-bottom: 50px;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .show-menu{
+        display: block !important;
+    }
+    .show-header{
+        background-color:#252B49 ;
+    }
+    .fa-bars{
+        display: block;
+        color: #fff;
+        font-size: 24px;
+        
+    }
+    .navigation{
+        display: none;
+        width: 100%;
+        height: 100vh;
+    }
+    .navigation-list{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+    .navigation-list__item{
+        text-align: left;
+        margin-bottom: 50px;
+        
+    }
+    .line{
+        display: none;
+    }
+    .work-grid{
+        grid-template-columns: repeat(2, 50%);
+    grid-template-rows: repeat(4, 144px);
+    }
+    .image-slaider__image {
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        img{
+            width: 100%;
+        }
+    }
+    .slaider-bg{
+        width: 100%;
+
+    }
+    .swiper-button-prev::after {
+        display: none;
+    }
+    .swiper-button-next::after {
+        display: none; 
+    }
+    .content-wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-bottom{
+        width: 100%;
+    }
+    .footer-card{
+        width: 280px;
+        margin-bottom: 30px;
+        &:last-child{
+            margin-bottom: 0;
+        }
+    }
+}

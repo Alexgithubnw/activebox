@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"  href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="./scss/indecx.scss">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header header-conteiner" id="header-toggle">
+        <div class="conteiner">
+            <div class="wrapper-header">
+                <div class="logo">
+                    <div class="logo-img">
+                        <img src="./img/ACTIVE.svg" alt="active">
+                        <img src="./img/BOX.svg" alt="box">
+                    </div>
+                    <div class="logo-burger" onclick="showMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                    <script>
+                        function showMenu(){
+                            let navigation = document.getElementById('navigation-toggle')
+                            navigation.classList.toggle('show-menu')
+                            let header = document.getElementById('header-toggle')
+                            header.classList.toggle('show-header')
+                    }
+                    </script>
+                </div>
+                
+                <nav class="navigation" id="navigation-toggle">
+                    <ul class="navigation-list">
+                        <li class="navigation-list__item">
+                            <a href="#">features</a>
+                        </li>
+                        <li class="navigation-list__item">
+                            <a href="#">works</a>
+                        </li>
+                        <li class="navigation-list__item">
+                            <a href="#">our team</a>
+                        </li>
+                        <li class="navigation-list__item">
+                            <a href="#">testimonials</a>
+                        </li>
+                        <li class="navigation-list__item">
+                            <a href="#">download</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="line"></div>
+        </div>
+    </header>
+    <section class="banner">
+        <div class="conteiner banner-conteiner">
+            <h1 class="title">Your Favorite One Page
+                Multi Purpose Template</h1>
+            <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent commodo cursus magna
+                vel scelerisque nisl consectetur et.</p>  
+            <div class="button">
+                <a href="#">Find Out More</a>
+            </div>  
+        </div>
+    </section>
+    <section class="features">
+        <div class="conteiner">
+            <div class="features-wrapper">
+                <div class="features-card">
+                    <div class="features-card-img">
+                        <img src="./img/Easily Customised.svg" alt="#">
+                    </div>
+                    <h3 class="features-card-title">Easily Customised</h3>
+                    <div class="features-card-text">
+                        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis ornare vel eu leo. Donec ullamcorper nulla non metus auctor fringilla.</p>
+                    </div>
+                </div>
+                <div class="features-card">
+                    <div class="features-card-img">
+                        <img src="./img/Responsive REady.svg" alt="#">
+                    </div>
+                    <h3 class="features-card-title">Responsive REady</h3>
+                    <div class="features-card-text">
+                        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis ornare vel eu leo. Donec ullamcorper nulla non metus auctor fringilla.</p>
+                    </div>
+                </div>
+                <div class="features-card">
+                    <div class="features-card-img">
+                        <img src="./img/Modern Design.svg" alt="#">
+                    </div>
+                    <h3 class="features-card-title">Modern Design</h3>
+                    <div class="features-card-text">
+                        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis ornare vel eu leo. Donec ullamcorper nulla non metus auctor fringilla.</p>
+                    </div>
+                </div>
+                <div class="features-card">
+                    <div class="features-card-img">
+                        <img src="./img/Clean Code.svg" alt="#">
+                    </div>
+                    <h3 class="features-card-title">Clean Code</h3>
+                    <div class="features-card-text">
+                        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis ornare vel eu leo. Donec ullamcorper nulla non metus auctor fringilla.</p>
+                    </div>
+                </div>
+                <div class="features-card">
+                    <div class="features-card-img">
+                        <img src="./img/Ready to ship.svg" alt="#">
+                    </div>
+                    <h3 class="features-card-title">Ready to ship</h3>
+                    <div class="features-card-text">
+                        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis ornare vel eu leo. Donec ullamcorper nulla non metus auctor fringilla.</p>
+                    </div>
+                </div>
+                <div class="features-card">
+                    <div class="features-card-img">
+                        <img src="./img/download for free.svg" alt="#">
+                    </div>
+                    <h3 class="features-card-title">download for free</h3>
+                    <div class="features-card-text">
+                        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis ornare vel eu leo. Donec ullamcorper nulla non metus auctor fringilla.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="work">
+        <div class="work-grid">
+            <div class="work-grid__item">
+                <img src="./img/grid1.jpg" alt="#">
+                <div class="work-grid_item-effect">
+                    <span>Project Name</span>
+                    <p>User Interface Design</p>
+                </div>
+            </div>
+            <div class="work-grid__item">
+                <img src="./img/grid2.jpg" alt="#">
+                <div class="work-grid_item-effect">
+                    <span>Project Name</span>
+                    <p>User Interface Design</p>
+                </div>
+            </div>
+            <div class="work-grid__item">
+                <img src="./img/grid3.jpg" alt="#">
+                <div class="work-grid_item-effect">
+                    <span>Project Name</span>
+                    <p>User Interface Design</p>
+                </div>
+            </div>
+            <div class="work-grid__item">
+                <img src="./img/grid4.jpg" alt="#">
+                <div class="work-grid_item-effect">
+                    <span>Project Name</span>
+                    <p>User Interface Design</p>
+                </div>
+            </div>
+            <div class="work-grid__item">
+                <img src="./img/grid5.jpg" alt="#">
+                <div class="work-grid_item-effect">
+                    <span>Project Name</span>
+                    <p>User Interface Design</p>
+                </div>
+            </div>
+            <div class="work-grid__item">
+                <img src="./img/grid6.jpg" alt="#">
+                <div class="work-grid_item-effect">
+                    <span>Project Name</span>
+                    <p>User Interface Design</p>
+                </div>
+            </div>
+            <div class="work-grid__item">
+                <img src="./img/grid7.jpg" alt="#">
+                <div class="work-grid_item-effect">
+                    <span>Project Name</span>
+                    <p>User Interface Design</p>
+                </div>
+            </div>
+            <div class="work-grid__item">
+                <img src="./img/grid8.jpg" alt="#">
+                <div class="work-grid_item-effect">
+                    <span>Project Name</span>
+                    <p>User Interface Design</p>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+    <section class="our_team">
+        <div class="conteiner">
+            <div class="our_team-wrapper">
+                <div class="our_team-card">
+                    <div class="our_team-img">
+                        <img src="./img/Ruth woods.png" alt="#">
+                    </div>
+                    <h3 class="our_team-name">Ruth woods</h3>
+                    <h4 class="our_team-post">founder, ceo</h4>
+                    <div class="our_team-text">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo.</div>
+                    <ul class="our_team-social">
+                        <li class="our_team-social__item">
+                            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        </li>
+                        <li class="our_team-social__item">
+                            <a href="#"><i class="fa-brands fa-twitter"></i></a> 
+                        </li>
+                        <li class="our_team-social__item">
+                            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="our_team-card">
+                    <div class="our_team-img">
+                        <img src="./img/Timothy Reed.png" alt="#">
+                    </div>
+                    <h3 class="our_team-name">Timothy Reed</h3>
+                    <h4 class="our_team-post">co-founder, developer</h4>
+                    <div class="our_team-text">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo.</div>
+                    <ul class="our_team-social">
+                        <li class="our_team-social__item">
+                            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        </li>
+                        <li class="our_team-social__item">
+                            <a href="#"><i class="fa-brands fa-twitter"></i></a> 
+                        </li>
+                        <li class="our_team-social__item">
+                            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="our_team-card">
+                    <div class="our_team-img">
+                        <img src="./img/Victoria Vladez.png" alt="#">
+                    </div>
+                    <h3 class="our_team-name">Victoria Vladez</h3>
+                    <h4 class="our_team-post">ui designer</h4>
+                    <div class="our_team-text">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo.</div>
+                    <ul class="our_team-social">
+                        <li class="our_team-social__item">
+                            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        </li>
+                        <li class="our_team-social__item">
+                            <a href="#"><i class="fa-brands fa-twitter"></i></a> 
+                        </li>
+                        <li class="our_team-social__item">
+                            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="our_team-card">
+                    <div class="our_team-img">
+                        <img src="./img/Beverly Little.png" alt="#">
+                    </div>
+                    <h3 class="our_team-name">Beverly Little</h3>
+                    <h4 class="our_team-post">data scientist</h4>
+                    <div class="our_team-text">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo.</div>
+                    <ul class="our_team-social">
+                        <li class="our_team-social__item">
+                            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        </li>
+                        <li class="our_team-social__item">
+                            <a href="#"><i class="fa-brands fa-twitter"></i></a> 
+                        </li>
+                        <li class="our_team-social__item">
+                            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="tesrimonials">
+            <div class="image-slider swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="image-slaider__image">
+                            <img src="./img/slaid1.jpg" alt="#">
+                            <div class="slaider-bg">
+                                <div class="slaider-text">
+                            <p>“Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec sed odio dui. Aenean eu leo quam...”</p>
+                            <span>Susan Sims, Interaction Designer at XYZ</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="image-slaider__image">
+                            <img src="./img/slaid2.jpg" alt="#">
+                            <div class="slaider-bg">
+                                <div class="slaider-text">
+                            <p>“Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec sed odio dui. Aenean eu leo quam...”</p>
+                            <span>Susan Sims, Interaction Designer at XYZ</span>
+                        </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="image-slaider__image">
+                            <img src="./img/slaid3.jpg" alt="#">
+                            <div class="slaider-bg">
+                                <div class="slaider-text">
+                            <p>“Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec sed odio dui. Aenean eu leo quam...”</p>
+                            <span>Susan Sims, Interaction Designer at XYZ</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="image-slaider__image">
+                            <img src="./img/slaid4.jpg" alt="#">
+                            <div class="slaider-bg">
+                                <div class="slaider-text">
+                            <p>“Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec sed odio dui. Aenean eu leo quam...”</p>
+                            <span>Susan Sims, Interaction Designer at XYZ</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="image-slaider__image">
+                            <img src="./img/slaid5.jpg" alt="#">
+                            <div class="slaider-bg">
+                                <div class="slaider-text">
+                            <p>“Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec sed odio dui. Aenean eu leo quam...”</p>
+                            <span>Susan Sims, Interaction Designer at XYZ</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-pagination"></div>
+    </section>
+    <section class="download">
+        <div class="conteiner">
+            <h3 class="download-title">Are You Ready to Start? Download Now For Free!</h3>
+            <p class="download-text">Fusce dapibus, tellus ac cursus commodo</p>
+            <div class="button">
+                <a href="#">download here</a>
+            </div>
+        </div>
+    </section>
+    <section class="footer-top">
+        <div class="conteiner">
+            <div class="content-wrapper">
+                <div class="footer-card">
+                    <h3 class="footer-title"> Location</h3>
+                    <p class="footer-text"> 3481 Melrose Place
+                        Beverly Hills, CA 90210</p>
+                </div>
+                <div class="footer-card">
+                    <h3 class="footer-title footer-title-social"> Share with Love</h3>
+                    <ul class="footer-social">
+                        <li class="footer-social__item">
+                            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        </li>
+                        <li class="footer-social__item">
+                            <a href="#"><i class="fa-brands fa-twitter"></i></a> 
+                        </li>
+                        <li class="footer-social__item">
+                            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-card">
+                    <h3 class="footer-title"> About ActiveBox</h3>
+                    <p class="footer-text"> Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec ullamcorper nulla non metus auctor fringilla.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="conteiner">
+            <div class="footer-bottom">
+                <p>Copyright © 2015 ActiveBox. All Rights Reserved
+                    Made with <a href="#">by Kamal Chaneman</a></p>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script type="module" src="./js/add.js"></script>
+</body>
+</html>
