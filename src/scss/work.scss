@@ -53,24 +53,4 @@
     display: flex;
     flex-direction: column;
 }
-/* .work-grid__item::before{
-    position: absolute;
-    left: 0;
-    right: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(255, 67, 67, 0.8); 
-    border: 2px solid #FFFFFF;
-    opacity: 0; 
-    transition: all .4s ease;
-    content: 'Project Name'; 
-    font-size: $_24px;
-    display: grid;
-    align-items: center;
-    text-align: center;
-    text-transform: uppercase;
-    color: #FFFFFF;
-}
-.work-grid__item:hover::before{
-    opacity: 1;
-} */
+
